@@ -23,13 +23,13 @@
 
 
 // Naming Practice
-// var _myName = "vinod";
+//  var _myName = "vinod";
 // var 1myName = "thapa";
 // var _1my__Name = "bahadur";
 // var $myName = "thapa technical";
 // var myNaem% = "thapa technical";
 
-// console.log(myNaem%);
+//  console.log(myNaem%);
 
 
 
@@ -54,7 +54,7 @@
 // var iAmThapas = false;
 // console.log(iAmThapas);
 
-// // typeof operator 
+//  typeof operator 
 // console.log(typeof(iAmThapas));
 
 
@@ -88,6 +88,7 @@
 // var iAmUseless = null;
 // console.log(iAmUseless);
 // console.log(typeof(iAmUseless));
+
 // //2nd javascript bug
 
 // var iAmStandBy;
@@ -550,7 +551,7 @@
 // 6️⃣ For Loop 
 
 // for(var num = 0; num <= 10; num++){
-//     debugger;
+//    // debugger;
 //     console.log(num);
 // }
 
@@ -599,6 +600,7 @@
 //   var total = a+b;
 //   console.log(total);
 // }
+
 // // 
 
 // 2️⃣Calling functions
@@ -1066,7 +1068,7 @@
 
 // var myFriendNames = ["vinod","bahadur","thapa","thapatechnical","thapa"];
 
-// console.log(myFriendNames.indexOf("Thapa", 3));
+// console.log(myFriendNames.indexOf("Thapa", 2));
 
 
 
@@ -1111,7 +1113,7 @@
 
 // const prices = [200,300,350,400,450,500,600];
 
-// price < 400
+// prices < 400
 // const findElem = prices.find((currVal) =>  currVal < 400 );
 // console.log(findElem);
 
@@ -1147,7 +1149,7 @@
 
 // const prices = [200,300,350,400,450,500,600];
 
-// // price < 400
+// prices < 400
 // const newPriceTag = prices.filter((elem, index) => {
 //   return elem > 1400;
 // })
@@ -1474,9 +1476,9 @@
 //         ['zone_7', ['zone_7', ['zone_7', 'zone_8']]]
 //     ];
 
-// // let flatArr = arr.reduce((accum, currVal)  => { 
-// //           return accum.concat(currVal);
-// // })
+// let flatArr = arr.reduce((accum, currVal)  => { 
+//           return accum.concat(currVal);
+// })
 
 // console.log(arr.flat(Infinity));
 
@@ -1678,7 +1680,7 @@
 
 // var str = "Apple, Bananaa, Kiwi";
 // // let res = str.substr(7,-2);
-// let res = str.substr(-4);
+// let res = str.substring(-4);
 // console.log(res);
 
 
@@ -2804,3 +2806,4 @@
 // request.addEventListener("load", () => {
 //     console.log(this.responseText);
 // });
+// full java script
