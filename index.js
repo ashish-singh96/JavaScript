@@ -16,13 +16,14 @@
 // var myName = 'vinod bahadur thapa';
 // var myAge = 26;
 
-// console.log(myage);
+// console.log(myAge);
 
 
 
 
 
 // Naming Practice
+
 //  var _myName = "vinod";
 // var 1myName = "thapa";
 // var _1my__Name = "bahadur";
@@ -121,11 +122,11 @@
 
   
 
-// NaN === NaN;        
-// Number.NaN === NaN; 
-// isNaN(NaN);         
-// isNaN(Number.NaN);  
-// Number.isNaN(NaN);
+// NaN === NaN;  //false      
+// Number.NaN === NaN; //false
+// isNaN(NaN);         //true
+// isNaN(Number.NaN);  //true
+// Number.isNaN(NaN);//true
 
 
 // console.log(Number.isNaN(NaN));
@@ -164,6 +165,7 @@
 // console.log("is both the x and y are equal or not" + x == y );
 
 // I will tell you when we will see es6
+
 // console.log(`Is both the x and y are equal : ${x == y}`);
 
 
@@ -194,6 +196,7 @@
 
 
 // 🙄Increment and Decrement operator
+
 // Operator: x++ or ++x or x-- or --x
 // If used postfix, with operator after operand (for example, x++), 
 // the increment operator increments and returns the value before incrementing.
@@ -234,8 +237,8 @@
 // A comparison operator compares its operands and 
 // returns a logical value based on whether the comparison is true.
 
-// var a = 30;
-// var b = 10;
+var a = 30;
+var b = 10;
 
 // Equal (==)
 // console.log(a == b);
@@ -266,8 +269,8 @@
 // Logical operators are typically used with Boolean (logical) values; 
 // when they are, they return a Boolean value.
 
-// var a = 30;
-// var b = -20;
+var a = 30;
+var b = -20;
 
 // Logical AND (&&)
 // The logical AND (&&) operator (logical conjunction) for a set of 
@@ -320,6 +323,7 @@
 
 
 // 😳 4 Challenge Time 
+
 // What will be the output of 3**3? 
 // What will be the output, when we add a number and a string?
 // Write a program to swap two numbers?
@@ -491,7 +495,7 @@
 //   console.log("please enter valid data");
 // }
 
-// var area = "dsfsad" ;
+// var area = "triangle" ;
 // var PI = 3.142, l=5, b=4, r=3;
 
 // switch(area){
@@ -538,6 +542,7 @@
 //   console.log(num); //infinte loop
 //   num++;
 // }
+
 
 // 5️⃣ Do-While Loop Statement
 
@@ -600,6 +605,7 @@
 //   var total = a+b;
 //   console.log(total);
 // }
+// sum();
 
 // // 
 
@@ -623,10 +629,10 @@
 // Function arguments are the real values passed to the function.
 
 
-// function sum(a,b){
-//   var total = a+b;
-//   console.log(total);
-// }
+function sum(a,b){
+  var total = a+b;
+  console.log(total);
+}
 
 // sum();
 // sum(20,30);
@@ -754,7 +760,7 @@
 //     const myLastName = "thapa";
 //   }
 
-//   // console.log('innerOuter ' + myLastName);
+  //  console.log('innerOuter ' + myLastName);
 // }
 
 // console.log(myFirstName);
@@ -834,7 +840,7 @@
   // }
 
   // let age = myBioData.age;
-  // let myFname = myBioData.myFname;
+  // // let myFname = myBioData.myFname;
 
   // let {myFname,myLname,myAge, myDegree="MCS"} = myBioData;
   // console.log(myLname);
@@ -899,8 +905,8 @@
 // const colors = ['red', 'green', 'blue', 'white', 'pink'];
 
 // const myColors = ['red', 'green', 'blue', 'white','pink', 'yellow', 'black'];
-// // // 2nd time add one more color on top and tell we need to write it again 
-// // // on myColor array too 
+// // 2nd time add one more color on top and tell we need to write it again 
+// // on myColor array too 
 
 // const MyFavColors = [ ...colors, 'yellow', 'black'];
 
@@ -942,7 +948,7 @@
 // ES2018
 
 // const person = { name: 'Fred', age: 87, degree : "mcs" };
-// const sPerson = { ...person };
+// const sPerson = {...person};
 
 // console.log(person);
 // console.log(sPerson);
@@ -1023,10 +1029,10 @@
 
 // we use for loop to navigate 
 
-// var myFriends = ['vinod','ramesh','arjun','vishal'];
-// for(var i=0; i<myFriends.length; i++){
-//   console.log(myFriends[i]);
-// }
+var myFriends = ['vinod','ramesh','arjun','vishal'];
+for(var i=0; i<myFriends.length; i++){
+  console.log(myFriends[i]);
+}
 
 // After ES6 we have for..in and for..of loop too 
 
@@ -1621,7 +1627,7 @@
 
 // var str = "Apple, Bananaa, Kiwi, mango";
 
-// // let res = str.slice(0,4);
+// let res = str.slice(0,4);
 // let res = str.slice(7);
 // console.log(res);
 
@@ -2806,4 +2812,4 @@
 // request.addEventListener("load", () => {
 //     console.log(this.responseText);
 // });
-// full java script
+
