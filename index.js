@@ -1029,10 +1029,10 @@ function sum(a,b){
 
 // we use for loop to navigate 
 
-var myFriends = ['vinod','ramesh','arjun','vishal'];
-for(var i=0; i<myFriends.length; i++){
-  console.log(myFriends[i]);
-}
+// var myFriends = ['vinod','ramesh','arjun','vishal'];
+// for(var i=0; i<myFriends.length; i++){
+//   console.log(myFriends[i]);
+// }
 
 // After ES6 we have for..in and for..of loop too 
 
@@ -1086,7 +1086,7 @@ for(var i=0; i<myFriends.length; i++){
 
 // var myFriendNames = ["vinod","bahadur","thapa","thapatechnical","thapa"];
 
-// console.log(myFriendNames.lastIndexOf("Thapa",3));
+// console.log(myFriendNames.lastIndexOf("thapa",3));
 
 
 
@@ -1255,6 +1255,7 @@ for(var i=0; i<myFriends.length; i++){
 // let aFruits = fruits.sort();
 
 // //Array.prototype.reverse() 🙋‍♂️
+
 // // The reverse() method reverses an array in place. 
 // // The first array element becomes the last, and 
 // // the last array element becomes the first.
@@ -1271,8 +1272,8 @@ for(var i=0; i<myFriends.length; i++){
 
 // const animals = ['pigs', 'goats', 'sheep'];
 
-// // const count = animals.push('chicken');
-// // console.log(count);
+// const count = animals.push('chicken');
+// // console.log(ans);
 
 // animals.push('chicken', 'cats','cow');
 // console.log(animals);
@@ -1284,11 +1285,11 @@ for(var i=0; i<myFriends.length; i++){
 
 
 
-// const animals = ['pigs', 'goats', 'sheep'];
+const animals = ['pigs', 'goats', 'sheep'];
 
-// const count = animals.unshift('chicken');
-// console.log(count);
-// console.log(animals);
+const count = animals.unshift('chicken');
+console.log(count);
+console.log(animals);
 
 // animals.unshift('chicken', 'cats','cow');
 // console.log(animals);
