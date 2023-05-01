@@ -237,8 +237,8 @@
 // A comparison operator compares its operands and 
 // returns a logical value based on whether the comparison is true.
 
-var a = 30;
-var b = 10;
+// var a = 30;
+// var b = 10;
 
 // Equal (==)
 // console.log(a == b);
@@ -1285,11 +1285,11 @@ function sum(a,b){
 
 
 
-const animals = ['pigs', 'goats', 'sheep'];
+// const animals = ['pigs', 'goats', 'sheep'];
 
-const count = animals.unshift('chicken');
-console.log(count);
-console.log(animals);
+// const count = animals.unshift('chicken');
+// console.log(count);
+// console.log(animals);
 
 // animals.unshift('chicken', 'cats','cow');
 // console.log(animals);
@@ -1385,8 +1385,8 @@ console.log(animals);
 // Returns a new array containing the results of calling a 
 // function on every element in this array. 
 
-// const array1 = [1, 4, 9, 16, 25];
-// num > 9
+const array1 = [1, 4, 9, 16, 25];
+// // num > 9
 // let newArr = array1.map((curElem,index,arr) => {
 //     return curElem > 9;
 // })
@@ -1430,7 +1430,7 @@ console.log(animals);
 // let arrSqr = arr.map((curElem) =>  Math.sqrt(curElem) )
 // console.log(arrSqr);
 
-// sol 2: 
+// // sol 2: 
 //  let arr = [2, 3, 4, 6, 8]; 
 
 //  let arr2 = arr.map((curElm) => curElm * 2).filter((curElem) => curElem > 10 ).reduce((accumulator, curElem) => {
@@ -1562,7 +1562,7 @@ console.log(animals);
 //  occurrence of a specified text in a string
 
 // const myBioData =  'I am the thapa Technical';
-// console.log(myBioData.indexOf("t", 6));
+// console.log(myBioData.indexOf("t", 2));
 
 
 // // JavaScript counts positions from zero.
@@ -1579,7 +1579,7 @@ console.log(animals);
 
 
 // const myBioData =  'I am the thapa Technical';
-// console.log(myBioData.lastIndexOf("t", 6));
+// console.log(myBioData.lastIndexOf("t", 9));
 
 
 
@@ -1601,7 +1601,7 @@ console.log(animals);
 // value and returns the position of the match
 
 // const myBioData =  'I am the thapa Technical';
-// let sData = myBioData.search("technical");
+// let sData = myBioData.search("Technical");
 // console.log(sData);
 
 
@@ -1628,7 +1628,7 @@ console.log(animals);
 
 // var str = "Apple, Bananaa, Kiwi, mango";
 
-// let res = str.slice(0,4);
+// // let res = str.slice(0,4);
 // let res = str.slice(7);
 // console.log(res);
 
@@ -1704,7 +1704,7 @@ console.log(animals);
 
 // let myBioData = `I am vinod bahadur thapa vinod`;
 
-// let repalceData = myBioData.replace('Vinod','VINOD');
+// let repalceData = myBioData.replace('vinod','VINOD');
 // console.log(repalceData);
 // console.log(myBioData);
 
@@ -1844,9 +1844,9 @@ console.log(animals);
 // A string can be converted to an array with the 
 // split() method
 
-// var txt = "a, b,c d,e";   // String
-// console.log(txt.split(","));           // Split on commas
-// console.log( txt.split(" "));          // Split on spaces
+//  var txt = "a, b,c d,e";   // String
+//  console.log(txt.split(","));           // Split on commas
+//  console.log( txt.split(" "));          // Split on spaces
 // console.log(txt.split("|"));         // Split on pipe
 
 
@@ -2005,7 +2005,7 @@ console.log(animals);
 
 // The JavaScript Math object allows you to perform mathematical tasks on numbers.
 
-// console.log(Math.PI); 🙋‍♂️
+// console.log(Math.PI); 
 // console.log(Math.PI);
 
 // Math.round() 🙋‍♂️
@@ -2414,7 +2414,7 @@ console.log(animals);
 //   }
 // }
 
-// console.log(bioData.myName.channelName );
+// console.log(bioData.myName.realName );
 
 
 
@@ -2449,7 +2449,7 @@ console.log(animals);
 // myName();
 
 
-// // ex 4 
+// // // ex 4 
 // const obj = {
 //     myAge : 26,
 //     myName() {
@@ -2531,7 +2531,8 @@ console.log(animals);
 // const add = (a,b) => {
 //     return a+b;
 // }
-// // console.log(add(5,2));
+// var x=(add(5,2));
+// console.log(x);
 
 // const subs = (a,b) => {
 //     return Math.abs(a-b);
@@ -2546,7 +2547,7 @@ console.log(animals);
 
 // calculator(5,2,subs)
 
-// console.log(calculator(5,2,subs));
+console.log(calculator(5,2,subs));
 
 // // // I have to do the hardcoded for each operation which is bad
 // // // we will use the callback and the HOF to make it simple to use 
@@ -2584,6 +2585,7 @@ console.log(animals);
 // const fun2 = () => {
 //   console.log(`Function 2️⃣ is called`);
 // }
+// // fun2();
 
 // const fun1 = () => {
 //   console.log(`Function 1 is called`);
@@ -2599,8 +2601,9 @@ console.log(animals);
 // const fun2 = () => {
 //   setTimeout(()=> {
 //       console.log(`Function 2️⃣  is called`);
-//   }, 2000);
+//   }, 6000);
 // }
+
 
 // const fun1 = () => {
 //   console.log(`Function 1 is called`);
@@ -2629,9 +2632,9 @@ console.log(animals);
 
 // // How it will be in output during creation phase 
 
-// 1: var myName = undefined;
-// 2: console.log(myName);
-// 3: myName = "thapa";
+//  var myName = undefined;
+//  console.log(myName);
+//  myName = "thapa";
 
 
 // //😲 In ES2015 (a.k.a. ES6), hoisting is avoided by using the let keyword 
@@ -2696,6 +2699,8 @@ console.log(animals);
 // }
 // outerFun(5);
 
+
+
 // // it same like lexical scoping 
 
 // // One more Example 👇
@@ -2725,9 +2730,9 @@ console.log(animals);
 // Currying
 
 
-// const sum = (num1) => (num2) => (num3) => console.log(num1+num2+num3); 
+// const sum1 = (num1) => (num2) => (num3) => console.log(num1+num2+num3); 
 
-// sum(5)(3)(8);
+// sum1(5)(3)(8);
 
 // // **********************************************************************
 
@@ -2774,7 +2779,7 @@ console.log(animals);
 // var my_object = { key_1: "some text", key_2: true, key_3: 5 };
 
 // var object_as_string = JSON.stringify(my_object);  
-// // "{"key_1":"some text","key_2":true,"key_3":5}"  
+// "{"key_1":"some text","key_2":true,"key_3":5}"  
 
 // console.log(object_as_string);
 
