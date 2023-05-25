@@ -199,7 +199,7 @@
 
 // Operator: x++ or ++x or x-- or --x
 // If used postfix, with operator after operand (for example, x++), 
-// the increment operator increments and returns the value before incrementing.
+// // the increment operator increments and returns the value before incrementing.
 
 // var num = 15;
 // var newNum = num-- + 5;
@@ -269,8 +269,8 @@
 // Logical operators are typically used with Boolean (logical) values; 
 // when they are, they return a Boolean value.
 
-var a = 30;
-var b = -20;
+// var a = 30;
+// var b = -20;
 
 // Logical AND (&&)
 // The logical AND (&&) operator (logical conjunction) for a set of 
@@ -629,10 +629,10 @@ var b = -20;
 // Function arguments are the real values passed to the function.
 
 
-function sum(a,b){
-  var total = a+b;
-  console.log(total);
-}
+// function sum(a,b){
+//   var total = a+b;
+//   console.log(total);
+// }
 
 // sum();
 // sum(20,30);
@@ -1385,7 +1385,7 @@ function sum(a,b){
 // Returns a new array containing the results of calling a 
 // function on every element in this array. 
 
-const array1 = [1, 4, 9, 16, 25];
+// const array1 = [1, 4, 9, 16, 25];
 // // num > 9
 // let newArr = array1.map((curElem,index,arr) => {
 //     return curElem > 9;
@@ -2547,7 +2547,7 @@ const array1 = [1, 4, 9, 16, 25];
 
 // calculator(5,2,subs)
 
-console.log(calculator(5,2,subs));
+// console.log(calculator(5,2,subs));
 
 // // // I have to do the hardcoded for each operation which is bad
 // // // we will use the callback and the HOF to make it simple to use 
