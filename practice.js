@@ -75,15 +75,26 @@ function second(){
 
 // console.log(ans);
 
-function myDisplay(some){
-  console.log(some);
-}
+// function myDisplay(some){
+//   console.log(some);
+// }
 
-function myCalculator(num1,num2,myCallback)
-{
-  let sum=num1+num2;
-  myCallback(sum);
-}
-let ans=myCalculator(3,4,myDisplay);
+// function myCalculator(num1,num2,myCallback)
+// {
+//   let sum=num1+num2;
+//   myCallback(sum);
+// }
+// let ans=myCalculator(3,4,myDisplay);
 
-  
+// Asynchronous JavaScript
+
+// function display(some){
+//   console.log(some);
+// }
+// function res(num1,num2,myCallback)
+// {
+//   let mul=num1*num2;
+//   myCallback(mul);
+// }
+// res(3,4,display);
+

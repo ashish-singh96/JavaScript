@@ -346,12 +346,12 @@
 
 // output b=5; a=10
 
-// var c = b; //c = 10
-// b = a; // b = 5;
-// a = c;
+var c = b; //c = 10
+b = a; // b = 5;
+a = c;
 
-// console.log("the value of a is " + a);
-// console.log("the value of b is " + b);
+console.log("the value of a is " + a);
+console.log("the value of b is " + b);
 
 
 // sol 4: ✔
