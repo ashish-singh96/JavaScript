@@ -1318,10 +1318,10 @@
 // The shift() method removes the first element from an array and returns 
 // that removed element. This method changes the length of the array.
 
-const plants = ['broccoli', 'cauliflower',  'kale', 'tomato', 'cabbage'];
-console.log(plants);
-console.log(plants.shift());
-console.log(plants);
+// const plants = ['broccoli', 'cauliflower',  'kale', 'tomato', 'cabbage'];
+// console.log(plants);
+// console.log(plants.shift());
+// console.log(plants);
 
 
 
@@ -1425,10 +1425,10 @@ console.log(plants);
 //     elements which are greater than 10?
 
 // sol1: 
-// let arr = [25, 36, 49, 64, 81];
+let arr = [25, 36, 49, 64, 81];
 
-// let arrSqr = arr.map((curElem) =>  Math.sqrt(curElem) )
-// console.log(arrSqr);
+let arrSqr = arr.map((curElem) =>  Math.sqrt(curElem) )
+console.log(arrSqr);
 
 // // sol 2: 
 //  let arr = [2, 3, 4, 6, 8]; 
