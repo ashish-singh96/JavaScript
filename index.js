@@ -1285,14 +1285,14 @@
 
 
 
-const animals = ['pigs', 'goats', 'sheep'];
+// const animals = ['pigs', 'goats', 'sheep'];
 
-const count = animals.unshift('chicken');
-console.log(count);
-console.log(animals);
+// const count = animals.unshift('chicken');
+// console.log(count);
+// console.log(animals);
 
-animals.unshift('chicken', 'cats','cow');
-console.log(animals);
+// animals.unshift('chicken', 'cats','cow');
+// console.log(animals);
 
 
 // 2nd example 
@@ -1318,10 +1318,10 @@ console.log(animals);
 // The shift() method removes the first element from an array and returns 
 // that removed element. This method changes the length of the array.
 
-// const plants = ['broccoli', 'cauliflower',  'kale', 'tomato', 'cabbage'];
-// console.log(plants);
-// console.log(plants.shift());
-// console.log(plants);
+const plants = ['broccoli', 'cauliflower',  'kale', 'tomato', 'cabbage'];
+console.log(plants);
+console.log(plants.shift());
+console.log(plants);
 
 
 
