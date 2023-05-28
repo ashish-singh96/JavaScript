@@ -1173,12 +1173,12 @@ console.log("the value of b is " + b);
 //upon converting the elements into strings, 
 // then comparing their sequences of UTF-16 code units values.
 
-// const months = ['March', 'Jan', 'Feb', 'April' , 'Dec', 'Nov'];
+const months = ['March', 'Jan', 'Feb', 'April' , 'Dec', 'Nov'];
 
-// console.log(months.sort());
+console.log(months.sort());
 
-// const array1 = [1, 30, 4, 21, 100000, 99];
-// console.log(array1.sort());
+const array1 = [1, 30, 4, 21, 100000, 99];
+console.log(array1.sort());
 
 
 
