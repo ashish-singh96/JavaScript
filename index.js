@@ -346,12 +346,12 @@
 
 // output b=5; a=10
 
-var c = b; //c = 10
-b = a; // b = 5;
-a = c;
+// var c = b; //c = 10
+// b = a; // b = 5;
+// a = c;
 
-console.log("the value of a is " + a);
-console.log("the value of b is " + b);
+// console.log("the value of a is " + a);
+// console.log("the value of b is " + b);
 
 
 // sol 4: ✔
@@ -1173,12 +1173,12 @@ console.log("the value of b is " + b);
 //upon converting the elements into strings, 
 // then comparing their sequences of UTF-16 code units values.
 
-const months = ['March', 'Jan', 'Feb', 'April' , 'Dec', 'Nov'];
+// const months = ['March', 'Jan', 'Feb', 'April' , 'Dec', 'Nov'];
 
-console.log(months.sort());
+// console.log(months.sort());
 
-const array1 = [1, 30, 4, 21, 100000, 99];
-console.log(array1.sort());
+// const array1 = [1, 30, 4, 21, 100000, 99];
+// console.log(array1.sort());
 
 
 
@@ -1285,14 +1285,14 @@ console.log(array1.sort());
 
 
 
-// const animals = ['pigs', 'goats', 'sheep'];
+const animals = ['pigs', 'goats', 'sheep'];
 
-// const count = animals.unshift('chicken');
-// console.log(count);
-// console.log(animals);
+const count = animals.unshift('chicken');
+console.log(count);
+console.log(animals);
 
-// animals.unshift('chicken', 'cats','cow');
-// console.log(animals);
+animals.unshift('chicken', 'cats','cow');
+console.log(animals);
 
 
 // 2nd example 
