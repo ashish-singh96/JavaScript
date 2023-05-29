@@ -1425,10 +1425,10 @@
 //     elements which are greater than 10?
 
 // sol1: 
-let arr = [25, 36, 49, 64, 81];
+// let arr = [25, 36, 49, 64, 81];
 
-let arrSqr = arr.map((curElem) =>  Math.sqrt(curElem) )
-console.log(arrSqr);
+// let arrSqr = arr.map((curElem) =>  Math.sqrt(curElem) )
+// console.log(arrSqr);
 
 // // sol 2: 
 //  let arr = [2, 3, 4, 6, 8]; 
@@ -1462,13 +1462,13 @@ console.log(arrSqr);
 // 4 subj = 1sub= 7
 // 3dubj = [5,6,2]
 
-// let arr = [5,6,2];
+let arr = [5,6,2];
 
-// let sum = arr.reduce((accumulator, curElem) => {
-//         debugger;
-//       return accumulator += curElem;
-// },7)
-// console.log(sum);
+let sum = arr.reduce((accumulator, curElem) => {
+        debugger;
+      return accumulator += curElem;
+},7)
+console.log(sum);
 
 
 
